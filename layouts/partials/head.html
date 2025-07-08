@@ -34,15 +34,15 @@
 <link rel="stylesheet" href="{{ $style_2.RelPermalink }}">
 
 <!-- fancybox css (js in the end before the body closing tag) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+<link rel="stylesheet" href="https://source.314926.xyz/assets/fancybox.css"/>
 
 <!-- videojs -->
-<link href="https://cdn.staticfile.net/video.js/8.6.1/alt/video-js-cdn.min.css" rel="stylesheet" />
+<link href="https://source.314926.xyz/assets/video-js-cdn.min.css" rel="stylesheet" />
 
 <!-- pure.css -->
-<link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/pure/2.0.6/base-min.min.css" type="text/css" rel="stylesheet" />
-<link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/pure/2.0.6/grids-min.min.css" type="text/css" rel="stylesheet" />
-<link href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/pure/2.0.6/grids-responsive-min.min.css" type="text/css" rel="stylesheet" />
+<link href="https://source.314926.xyz/assets/base-min.min.css" type="text/css" rel="stylesheet" />
+<link href="https://source.314926.xyz/assets/grids-min.min.css" type="text/css" rel="stylesheet" />
+<link href="https://source.314926.xyz/assets/grids-responsive-min.min.css" type="text/css" rel="stylesheet" />
 
 <!-- CSS for loading animation -->
 {{ if .Site.Params.infiniteScroll }}
@@ -52,12 +52,12 @@
 {{/* pangu support: js in the end before the body closing tag */}}
 {{ if .Site.Params.features.pangu }}
 <!-- pangu support -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js"></script>
+<script src="https://source.314926.xyz/assets/pangu.min.js"></script>
 {{ end }}
 
 {{ if $.Site.Params.experimental.comment }}
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<link rel="stylesheet" href="https://source.314926.xyz/assets/gitalk.css">
+<script src="https://source.314926.xyz/assets/gitalk.min.js"></script>
 {{ end }}
 
 {{ if .Site.Params.features.heti }}
